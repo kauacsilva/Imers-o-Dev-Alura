@@ -5,8 +5,6 @@ const searchForm = document.querySelector(".search-bar");
 let dados = [];
 let dadosPromise = null;
 
-cardContainer.innerHTML = "<p class='card-feedback'>Digite um conceito de programação no campo acima para começar.</p>";
-
 async function carregarDados() {
     if (dados.length) return;
     if (!dadosPromise) {
@@ -95,3 +93,13 @@ campoBusca.addEventListener("input", () => {
         iniciarBusca();
     }
 });
+
+function carregarCardsAoIniciar() {
+    iniciarBusca();
+}
+
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", carregarCardsAoIniciar);
+} else {
+    carregarCardsAoIniciar();
+}
