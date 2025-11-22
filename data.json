@@ -1,0 +1,275 @@
+[
+  {
+    "nome": "Variável",
+    "descricao": "Espaço na memória para guardar valores.",
+    "exemplo": "let idade = 20;",
+    "explicacao": "Variáveis servem para armazenar informações que você usa no código.",
+    "metafora": "Uma variável é como uma caixa com etiqueta onde você guarda algo para usar depois."
+  },
+  {
+    "nome": "Função",
+    "descricao": "Um bloco de código que realiza uma tarefa específica.",
+    "exemplo": "function somar(a, b) { return a + b; }",
+    "explicacao": "Funções evitam repetir código e permitem reutilizar ações.",
+    "metafora": "Uma função é como uma máquina de suco: você coloca algo e ela devolve algo pronto."
+  },
+  {
+    "nome": "Array",
+    "descricao": "Uma lista organizada de valores.",
+    "exemplo": "const frutas = [\"maçã\", \"banana\", \"uva\"];",
+    "explicacao": "Arrays guardam vários valores dentro de uma única estrutura.",
+    "metafora": "Um array é como uma prateleira com vários itens alinhados."
+  },
+  {
+    "nome": "Objeto",
+    "descricao": "Estrutura que guarda dados em pares propriedade: valor.",
+    "exemplo": "const usuario = { nome: \"Ana\", idade: 25 };",
+    "explicacao": "Objetos representam coisas do mundo real no código.",
+    "metafora": "Um objeto é como uma ficha de cadastro cheia de informações."
+  },
+  {
+    "nome": "Condicional IF",
+    "descricao": "Permite executar ações diferentes dependendo de uma condição.",
+    "exemplo": "if (idade >= 18) console.log(\"Maior de idade\");",
+    "explicacao": "O código decide o que fazer com base em uma regra.",
+    "metafora": "É como um porteiro que deixa você entrar ou não dependendo da sua idade."
+  },
+  {
+    "nome": "Loop FOR",
+    "descricao": "Usado para repetir instruções várias vezes.",
+    "exemplo": "for (let i = 0; i < 5; i++) { console.log(\"Oi\"); }",
+    "explicacao": "Loops automatizam repetições para evitar repetição manual.",
+    "metafora": "Um loop é como um despertador tocando várias vezes seguidas."
+  },
+  {
+    "nome": "API",
+    "descricao": "Interface que permite sistemas se comunicarem.",
+    "exemplo": "fetch(\"https://api.com/dados\").then(r => r.json());",
+    "explicacao": "APIs permitem buscar dados de outros sistemas.",
+    "metafora": "Uma API é como um garçom que leva seu pedido e traz a comida."
+  },
+  {
+    "nome": "Classe",
+    "descricao": "Um molde para criar objetos com características e comportamentos.",
+    "exemplo": "class Pessoa { constructor(nome) { this.nome = nome; } }",
+    "explicacao": "Classes criam objetos seguindo uma estrutura padrão.",
+    "metafora": "Uma classe é como uma fôrma de bolo usada para criar vários bolos iguais."
+  },
+  {
+    "nome": "Banco de Dados",
+    "descricao": "Local onde informações são armazenadas e organizadas.",
+    "exemplo": "SELECT * FROM Usuarios;",
+    "explicacao": "Bancos de dados guardam informações de forma estruturada.",
+    "metafora": "Um banco de dados é como uma biblioteca cheia de livros categorizados."
+  },
+  {
+    "nome": "JSON",
+    "descricao": "Formato simples para armazenar e transferir dados.",
+    "exemplo": "{ \"nome\": \"Lucas\", \"idade\": 22 }",
+    "explicacao": "É usado para enviar dados entre aplicações de forma prática.",
+    "metafora": "JSON é como um envelope organizado com etiquetas para cada informação."
+  },
+  {
+    "nome": "Operadores Lógicos",
+    "descricao": "Símbolos usados para comparar valores e criar condições mais complexas.",
+    "exemplo": "if (idade > 18 && ativo === true) { ... }",
+    "explicacao_simples": "Eles juntam condições para tomar decisões mais precisas.",
+    "metafora": "São como semáforos que dizem se você pode seguir ou não."
+  },
+  {
+    "nome": "Template Strings",
+    "descricao": "Forma moderna de montar textos com variáveis usando crases.",
+    "exemplo": "const msg = `Olá, ${nome}!`;",
+    "explicacao_simples": "Permitem montar frases com variáveis de forma fácil.",
+    "metafora": "É como montar uma frase com espaços reservados que você preenche automaticamente."
+  },
+  {
+    "nome": "Manipulação de DOM",
+    "descricao": "Alteração de elementos da página via JavaScript.",
+    "exemplo": "document.getElementById(\"titulo\").innerText = \"Novo título\";",
+    "explicacao_simples": "Você muda textos, cores e elementos da tela com o JS.",
+    "metafora": "É como reorganizar móveis em uma casa sem reconstruir tudo."
+  },
+  {
+    "nome": "Eventos",
+    "descricao": "Ações do usuário ou do sistema que podem disparar funções.",
+    "exemplo": "button.addEventListener(\"click\", () => alert(\"Clicou!\"));",
+    "explicacao_simples": "O código reage quando algo acontece.",
+    "metafora": "Eventos são como sensores que disparam quando alguém encosta."
+  },
+  {
+    "nome": "Módulos",
+    "descricao": "Formas de dividir o código em vários arquivos organizados.",
+    "exemplo": "export function somar(a, b) { return a + b; }",
+    "explicacao_simples": "Permite separar o código e reaproveitar funções.",
+    "metafora": "É como guardar ferramentas em caixas diferentes para achar tudo mais rápido."
+  },
+  {
+    "nome": "Tratamento de Erros",
+    "descricao": "Maneira de lidar com erros sem quebrar o programa.",
+    "exemplo": "try { JSON.parse('{erro}') } catch(e) { console.log('Erro tratado'); }",
+    "explicacao_simples": "Você evita que um problema derrube seu sistema.",
+    "metafora": "É como um airbag: quando algo dá errado, ele salva o carro."
+  },
+  {
+    "nome": "CRUD",
+    "descricao": "Conjunto básico de ações: Criar, Ler, Atualizar e Deletar dados.",
+    "exemplo": "GET /users, POST /users, PUT /users/1, DELETE /users/1",
+    "explicacao_simples": "CRUD representa tudo que você faz em um sistema com dados.",
+    "metafora": "É como organizar documentos: criar, ler, editar e jogar fora."
+  },
+  {
+    "nome": "Middleware",
+    "descricao": "Funções executadas entre a requisição e a resposta em APIs.",
+    "exemplo": "app.use((req, res, next) => { console.log('Passou aqui'); next(); });",
+    "explicacao_simples": "É um passo intermediário entre o pedido e a resposta.",
+    "metafora": "É como um segurança que verifica tudo antes de liberar a entrada."
+  },
+  {
+    "nome": "Autenticação",
+    "descricao": "Processo de confirmar a identidade de um usuário.",
+    "exemplo": "Login → gerar JWT → acessar rotas protegidas.",
+    "explicacao_simples": "Garante que só pessoas autorizadas acessam algo.",
+    "metafora": "É como mostrar sua carteira na portaria para entrar no prédio."
+  },
+  {
+    "nome": "Deploy",
+    "descricao": "Ato de colocar um projeto no ar para outras pessoas usarem.",
+    "exemplo": "Deploy de site no Vercel ou API no Render.",
+    "explicacao_simples": "É publicar seu sistema para que o mundo possa acessar.",
+    "metafora": "É como abrir as portas de um restaurante depois de tudo pronto."
+  },
+  {
+  "nome": "Loop WHILE",
+  "descricao": "Repete um bloco enquanto a condição for verdadeira.",
+  "exemplo": "while (contador < 5) { contador++; }",
+  "explicacao": "Continua executando até que a condição deixe de ser verdadeira.",
+  "metafora": "Como esperar na fila: você só sai quando chega sua vez."
+},
+{
+  "nome": "Recursão",
+  "descricao": "Função que chama a si mesma para resolver problemas menores.",
+  "exemplo": "function fatorial(n){ return n===0?1:n*fatorial(n-1); }",
+  "explicacao": "Repete a lógica com valores menores até alcançar o caso base.",
+  "metafora": "Como abrir bonecas russas até a menor delas."
+},
+{
+  "nome": "Promise",
+  "descricao": "Objeto para lidar com ações assíncronas.",
+  "exemplo": "fetch('/dados').then(r => r.json());",
+  "explicacao": "Representa algo que vai terminar no futuro: sucesso ou erro.",
+  "metafora": "Como pedir delivery: você espera a entrega ou o cancelamento."
+},
+{
+  "nome": "Escopo",
+  "descricao": "Define onde variáveis e funções podem ser acessadas.",
+  "exemplo": "Variáveis dentro da função só existem lá dentro.",
+  "explicacao": "Controla visibilidade e limites dos valores no código.",
+  "metafora": "Como ter uma chave que só abre uma sala específica."
+},
+{
+  "nome": "Tipagem",
+  "descricao": "Define que tipo de dado uma variável pode ter.",
+  "exemplo": "int idade = 30; // sempre número inteiro",
+  "explicacao": "Pode ser fixa (estática) ou flexível (dinâmica).",
+  "metafora": "Como prateleiras separadas para tipos específicos de produtos."
+},
+{
+  "nome": "Hash Map",
+  "descricao": "Estrutura que armazena dados em pares chave-valor.",
+  "exemplo": "usuario['nome']",
+  "explicacao": "Acesso rápido porque usa hashing para localizar valores.",
+  "metafora": "Como um índice de catálogo que leva direto à informação."
+},
+{
+  "nome": "Callback",
+  "descricao": "Função executada depois que outra termina.",
+  "exemplo": "setTimeout(() => console.log('OK'), 2000);",
+  "explicacao": "Usado para tarefas que demoram e precisam de resposta posterior.",
+  "metafora": "Como deixar um recado para o carteiro te avisar depois."
+},
+{
+  "nome": "Design Responsivo",
+  "descricao": "Layout que se adapta a qualquer tela.",
+  "exemplo": "@media (max-width: 600px) { ... }",
+  "explicacao": "Interface ajusta tamanho e posição automaticamente.",
+  "metafora": "Como um origami que muda de forma conforme o espaço."
+},
+{
+  "nome": "Herança",
+  "descricao": "Classe filha herda propriedades da classe mãe.",
+  "exemplo": "class Cachorro extends Animal {}",
+  "explicacao": "Evita repetir código comum.",
+  "metafora": "Como características herdadas dos pais."
+},
+{
+  "nome": "Polimorfismo",
+  "descricao": "Mesmo método com comportamentos diferentes.",
+  "exemplo": "emitirSom() → 'Miau' ou 'Au Au'",
+  "explicacao": "A ação se adapta ao tipo do objeto.",
+  "metafora": "Como o botão play que faz coisas diferentes em aparelhos distintos."
+},
+{
+  "nome": "Git",
+  "descricao": "Sistema para versionar e controlar mudanças no código.",
+  "exemplo": "git commit && git push",
+  "explicacao": "Permite salvar versões e voltar atrás quando necessário.",
+  "metafora": "Como o histórico de revisões de um documento."
+},
+{
+  "nome": "Stack",
+  "descricao": "Estrutura LIFO: último a entrar é o primeiro a sair.",
+  "exemplo": "Call Stack do JavaScript",
+  "explicacao": "Itens só entram e saem pelo topo.",
+  "metafora": "Como uma pilha de pratos."
+},
+{
+  "nome": "Queue",
+  "descricao": "Estrutura FIFO: primeiro a entrar é o primeiro a sair.",
+  "exemplo": "Fila de impressão",
+  "explicacao": "Processa itens na ordem de chegada.",
+  "metafora": "Como uma fila no cinema."
+},
+{
+  "nome": "DRY",
+  "descricao": "Evita repetir código desnecessariamente.",
+  "exemplo": "Criar uma função reutilizável.",
+  "explicacao": "Facilita manutenção e reduz erros.",
+  "metafora": "Como ter uma única receita em vez de várias duplicadas."
+},
+{
+  "nome": "Refatoração",
+  "descricao": "Melhorar o código sem mudar sua função.",
+  "exemplo": "Dividir funções grandes em menores.",
+  "explicacao": "Deixa o código mais limpo e fácil de entender.",
+  "metafora": "Como reorganizar uma cozinha sem comprar nada novo."
+},
+{
+  "nome": "Debugging",
+  "descricao": "Encontrar e corrigir erros no código.",
+  "exemplo": "Usar DevTools para inspecionar variáveis.",
+  "explicacao": "Identifica onde a lógica quebrou.",
+  "metafora": "Como ser um detetive procurando pistas."
+},
+{
+  "nome": "Componente",
+  "descricao": "Bloco reutilizável que combina lógica, HTML e CSS.",
+  "exemplo": "React: <Botao />",
+  "explicacao": "Construção de interfaces por partes independentes.",
+  "metafora": "Como peças de LEGO."
+},
+{
+  "nome": "Estado",
+  "descricao": "Dados que representam a situação atual do componente.",
+  "exemplo": "useState(false)",
+  "explicacao": "Mudanças no estado atualizam a interface.",
+  "metafora": "Como o ponteiro do velocímetro."
+},
+{
+  "nome": "Roteamento",
+  "descricao": "Controla qual página ou código será mostrado.",
+  "exemplo": "app.get('/home')",
+  "explicacao": "Mapeia URLs para funcionalidades.",
+  "metafora": "Como placas indicando para onde cada caminho leva."
+}
+]

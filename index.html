@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Enciclopédia do Programador Iniciante</title>
+</head>
+
+<body>
+    <div class="bg-glow" aria-hidden="true"></div>
+
+    <header class="header">
+        <div class="header-inner">
+            <div class="header-content">
+                <p class="tema">Enciclopédia do Programador Iniciante</p>
+                <h1 class="title">Base de Conhecimento</h1>
+                <p class="subtitle">Pesquise termos fundamentais de programação e receba descrições rápidas,
+                    exemplos e metáforas que fixam o aprendizado.</p>
+            </div>
+            <form class="search-bar" role="search">
+                <label class="search-label" for="campo-busca">Campo de busca</label>
+                <input type="text" id="campo-busca" placeholder="Pesquise...">
+                <button type="submit" id="botao-busca">Buscar</button>
+            </form>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="card-container" aria-live="polite" aria-label="Resultados encontrados"></section>
+    </main>
+
+    <footer class="footer">
+        <p>Enciclopédia do Programador Iniciante · 2025</p>
+        <div class="footer__links">
+            <a href="https://github.com/kauacsilva" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/kauã-castro" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
