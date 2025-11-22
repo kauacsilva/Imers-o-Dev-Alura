@@ -48,7 +48,3 @@ revise rapidamente os fundamentos e descubra novas áreas para explorar.
 
 Projeto desenvolvido durante a **Imersão Dev Gemini da Alura**. Agradecimentos à comunidade Alura pelo conteúdo e aos
 mentores que estimularam a criação desta enciclopédia.
-
----
-
-Feito para encorajar mais pessoas a darem seus primeiros deploys no mundo da programação.
